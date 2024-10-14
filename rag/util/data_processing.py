@@ -4,7 +4,19 @@ import os
 
 from loguru import logger
 from langchain_community.vectorstores import FAISS
-from rag.src.config.config import (
+# from rag.src.config.config import (
+#     embedding_path,
+#     embedding_model_name,
+#     doc_dir, qa_dir,
+#     knowledge_pkl_path,
+#     data_dir,
+#     vector_db_dir,
+#     rerank_path,
+#     rerank_model_name,
+#     chunk_size,
+#     chunk_overlap
+# )
+from config.config import (
     embedding_path,
     embedding_model_name,
     doc_dir, qa_dir,
