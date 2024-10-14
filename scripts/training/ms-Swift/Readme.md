@@ -28,7 +28,8 @@ pip install deepspeed -U
 pip install -r requirements/framework.txt  -U
 pip install -r requirements/llm.txt  -U
 ```
-### 微调，启动！😻
+### 微调，启动！🤯🤯🤯
+#### 使用Python微调
 ```
 # Experimental environment: A10, 3090, V100, ...
 # 20GB GPU memory
@@ -60,5 +61,55 @@ result = infer_main(infer_args)
 torch.cuda.empty_cache()
 
 app_ui_main(infer_args)
-
 ```
+
+为了降低使用门槛，Swift还贴心的增加了界面训练推理的方式。另外还有sh脚本的使用方式,可以Github上查阅swift的[官方文档](https://github.com/modelscope/ms-swift/blob/main/README_CN.md)去了解。
+#### 使用CIL命令微调
+```
+# Experimental environment: A10, 3090, V100, ...
+# 20GB GPU memory
+CUDA_VISIBLE_DEVICES=0 swift sft \
+    --model_id_or_path qwen/Qwen-7B-Chat \
+    --dataset AI-ModelScope/blossom-math-v2 \
+    --output_dir output \
+    --model_type your model_type
+
+# 使用自己的数据集
+CUDA_VISIBLE_DEVICES=0 swift sft \
+    --model_id_or_path qwen/Qwen-7B-Chat \
+    --dataset chatml.jsonl \
+    --output_dir output \
+    --model_type your model_type
+
+# 使用DDP
+# Experimental environment: 2 * 3090
+# 2 * 23GB GPU memory
+CUDA_VISIBLE_DEVICES=0,1 \
+NPROC_PER_NODE=2 \
+swift sft \
+    --model_id_or_path qwen/Qwen-7B-Chat \
+    --dataset AI-ModelScope/blossom-math-v2 \
+    --output_dir output \
+
+# 多机多卡
+# node0
+CUDA_VISIBLE_DEVICES=0,1,2,3 \
+NNODES=2 \
+NODE_RANK=0 \
+MASTER_ADDR=127.0.0.1 \
+NPROC_PER_NODE=4 \
+swift sft \
+    --model_id_or_path qwen/Qwen-7B-Chat \
+    --dataset AI-ModelScope/blossom-math-v2 \
+    --output_dir output \
+# node1
+CUDA_VISIBLE_DEVICES=0,1,2,3 \
+NNODES=2 \
+NODE_RANK=1 \
+MASTER_ADDR=xxx.xxx.xxx.xxx \
+NPROC_PER_NODE=4 \
+swift sft \
+    --model_id_or_path qwen/Qwen-7B-Chat \
+    --dataset AI-ModelScope/blossom-math-v2 \
+    --output_dir output \
+···
