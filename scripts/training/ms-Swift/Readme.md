@@ -134,3 +134,5 @@ swift rlhf \
     --sft_type lora \
     --output_dir output \
 ```
+### 推理效果
+![以心理大模型微调为例](https://github.com/RealTapeL/Xiao_i_Chat/blob/main/pics/%E5%BF%83%E7%90%86%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83.png)
