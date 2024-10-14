@@ -12,6 +12,8 @@
 ## 4. 批量识别处理
 ### 4.1 加载PaddleOCR模型
 首先，导入PaddleOCR库并加载预训练模型：
-`from paddleocr import PaddleOCR, draw_ocr
+```
+from paddleocr import PaddleOCR, draw_ocr
 #初始化OCR模型，使用默认的英文模型
-ocr = PaddleOCR(use_angle_cls=True, lang='en')`
+ocr = PaddleOCR(use_angle_cls=True, lang='en')
+```
