@@ -1,0 +1,267 @@
+(llm) ps@ps:~/llm-train-and-val/scripts/ceval$ bash ceval.sh
+Namespace(model_path='/home/ps/llm-train-and-val/models/phy0929-2', few_shot=False, ntrain=5, with_prompt=False, use_flash_attention_2=False, n_times=1, do_save_csv=False, output_dir='phy0929-2_ceval_log', do_test=False, verbose=False)
+Using device: cuda:0
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:01<00:00,  2.77it/s]
+0.0 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of high_school_mathematics!
+  0%|                                                                                                                                                       | 0/18 [00:00<?, ?it/s]Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+From v4.47 onwards, when a model cache is to be returned, `generate` will return a `Cache` instance instead by default (as opposed to the legacy tuple of tuples format). If you want to keep returning the legacy format, please set `return_legacy_cache=True`.
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 18/18 [00:01<00:00, 16.01it/s]
+Subject: high_school_mathematics
+Acc: 16.666666666666668
+0.019230769230769232 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of high_school_chinese!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:01<00:00, 13.14it/s]
+Subject: high_school_chinese
+Acc: 42.10526315789474
+0.038461538461538464 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of legal_professional!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 23/23 [00:01<00:00, 13.78it/s]
+Subject: legal_professional
+Acc: 52.17391304347826
+0.057692307692307696 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of accountant!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 49/49 [00:02<00:00, 17.48it/s]
+Subject: accountant
+Acc: 40.816326530612244
+0.07692307692307693 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of plant_protection!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:00<00:00, 23.96it/s]
+Subject: plant_protection
+Acc: 77.27272727272727
+0.09615384615384616 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of marxism!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:00<00:00, 22.65it/s]
+Subject: marxism
+Acc: 57.89473684210526
+0.11538461538461539 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of business_administration!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 33/33 [00:01<00:00, 20.41it/s]
+Subject: business_administration
+Acc: 39.39393939393939
+0.1346153846153846 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of high_school_history!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:01<00:00, 19.40it/s]
+Subject: high_school_history
+Acc: 65.0
+0.15384615384615385 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of college_economics!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 55/55 [00:02<00:00, 21.02it/s]
+Subject: college_economics
+Acc: 38.18181818181818
+0.17307692307692307 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of operating_system!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:00<00:00, 24.58it/s]
+Subject: operating_system
+Acc: 52.63157894736842
+0.19230769230769232 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of high_school_physics!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:01<00:00, 16.64it/s]
+Subject: high_school_physics
+Acc: 42.10526315789474
+0.21153846153846154 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of middle_school_biology!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 21/21 [00:00<00:00, 21.60it/s]
+Subject: middle_school_biology
+Acc: 76.19047619047619
+0.23076923076923078 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of electrical_engineer!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 37/37 [00:01<00:00, 21.79it/s]
+Subject: electrical_engineer
+Acc: 45.945945945945944
+0.25 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of clinical_medicine!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:00<00:00, 22.72it/s]
+Subject: clinical_medicine
+Acc: 63.63636363636363
+0.2692307692307692 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of sports_science!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:00<00:00, 23.66it/s]
+Subject: sports_science
+Acc: 57.89473684210526
+0.28846153846153844 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of basic_medicine!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:00<00:00, 24.47it/s]
+Subject: basic_medicine
+Acc: 63.1578947368421
+0.3076923076923077 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of middle_school_history!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:01<00:00, 21.74it/s]
+Subject: middle_school_history
+Acc: 68.18181818181819
+0.3269230769230769 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of physician!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 49/49 [00:02<00:00, 23.86it/s]
+Subject: physician
+Acc: 53.06122448979592
+0.34615384615384615 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of urban_and_rural_planner!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 46/46 [00:02<00:00, 21.15it/s]
+Subject: urban_and_rural_planner
+Acc: 58.69565217391305
+0.36538461538461536 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of discrete_mathematics!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:00<00:00, 21.33it/s]
+Subject: discrete_mathematics
+Acc: 18.75
+0.38461538461538464 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of high_school_biology!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:01<00:00, 18.68it/s]
+Subject: high_school_biology
+Acc: 31.57894736842105
+0.40384615384615385 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of fire_engineer!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 31/31 [00:01<00:00, 18.19it/s]
+Subject: fire_engineer
+Acc: 41.935483870967744
+0.4230769230769231 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of middle_school_mathematics!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:01<00:00, 18.50it/s]
+Subject: middle_school_mathematics
+Acc: 36.8421052631579
+0.4423076923076923 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of college_chemistry!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 24/24 [00:01<00:00, 20.57it/s]
+Subject: college_chemistry
+Acc: 62.5
+0.46153846153846156 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of modern_chinese_history!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 23/23 [00:01<00:00, 22.60it/s]
+Subject: modern_chinese_history
+Acc: 56.52173913043478
+0.4807692307692308 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of mao_zedong_thought!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 24/24 [00:01<00:00, 21.59it/s]
+Subject: mao_zedong_thought
+Acc: 58.333333333333336
+0.5 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of law!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 24/24 [00:01<00:00, 17.45it/s]
+Subject: law
+Acc: 45.833333333333336
+0.5192307692307693 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of ideological_and_moral_cultivation!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:00<00:00, 24.60it/s]
+Subject: ideological_and_moral_cultivation
+Acc: 63.1578947368421
+0.5384615384615384 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of tax_accountant!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 49/49 [00:02<00:00, 17.76it/s]
+Subject: tax_accountant
+Acc: 34.69387755102041
+0.5576923076923077 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of college_programming!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 37/37 [00:01<00:00, 20.13it/s]
+Subject: college_programming
+Acc: 56.75675675675676
+0.5769230769230769 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of chinese_language_and_literature!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 23/23 [00:00<00:00, 25.65it/s]
+Subject: chinese_language_and_literature
+Acc: 43.47826086956522
+0.5961538461538461 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of advanced_mathematics!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:01<00:00, 16.34it/s]
+Subject: advanced_mathematics
+Acc: 42.10526315789474
+0.6153846153846154 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of environmental_impact_assessment_engineer!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 31/31 [00:01<00:00, 20.42it/s]
+Subject: environmental_impact_assessment_engineer
+Acc: 45.16129032258065
+0.6346153846153846 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of high_school_geography!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:00<00:00, 23.00it/s]
+Subject: high_school_geography
+Acc: 78.94736842105263
+0.6538461538461539 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of metrology_engineer!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 24/24 [00:01<00:00, 21.02it/s]
+Subject: metrology_engineer
+Acc: 54.166666666666664
+0.6730769230769231 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of veterinary_medicine!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 23/23 [00:01<00:00, 22.74it/s]
+Subject: veterinary_medicine
+Acc: 60.869565217391305
+0.6923076923076923 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of middle_school_chemistry!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:01<00:00, 19.46it/s]
+Subject: middle_school_chemistry
+Acc: 80.0
+0.7115384615384616 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of education_science!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 29/29 [00:01<00:00, 24.21it/s]
+Subject: education_science
+Acc: 65.51724137931035
+0.7307692307692307 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of logic!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:01<00:00, 11.94it/s]
+Subject: logic
+Acc: 45.45454545454545
+0.75 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of teacher_qualification!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 44/44 [00:02<00:00, 20.85it/s]
+Subject: teacher_qualification
+Acc: 75.0
+0.7692307692307693 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of high_school_chemistry!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:01<00:00, 17.54it/s]
+Subject: high_school_chemistry
+Acc: 47.36842105263158
+0.7884615384615384 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of computer_network!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:00<00:00, 23.26it/s]
+Subject: computer_network
+Acc: 57.89473684210526
+0.8076923076923077 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of middle_school_geography!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:00<00:00, 22.32it/s]
+Subject: middle_school_geography
+Acc: 41.666666666666664
+0.8269230769230769 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of civil_servant!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:02<00:00, 15.81it/s]
+Subject: civil_servant
+Acc: 46.808510638297875
+0.8461538461538461 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of high_school_politics!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:01<00:00, 14.94it/s]
+Subject: high_school_politics
+Acc: 63.1578947368421
+0.8653846153846154 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of art_studies!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 33/33 [00:01<00:00, 25.29it/s]
+Subject: art_studies
+Acc: 63.63636363636363
+0.8846153846153846 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of probability_and_statistics!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 18/18 [00:01<00:00, 14.19it/s]
+Subject: probability_and_statistics
+Acc: 33.333333333333336
+0.9038461538461539 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of college_physics!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:01<00:00, 16.98it/s]
+Subject: college_physics
+Acc: 31.57894736842105
+0.9230769230769231 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of computer_architecture!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 21/21 [00:00<00:00, 22.60it/s]
+Subject: computer_architecture
+Acc: 57.142857142857146
+0.9423076923076923 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of middle_school_politics!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 21/21 [00:01<00:00, 18.32it/s]
+Subject: middle_school_politics
+Acc: 71.42857142857143
+0.9615384615384616 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of professional_tour_guide!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 29/29 [00:01<00:00, 24.97it/s]
+Subject: professional_tour_guide
+Acc: 55.172413793103445
+0.9807692307692307 Inference starts at 2024-09-30_10-16-02 on /home/ps/llm-train-and-val/models/phy0929-2 with subject of middle_school_physics!
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:00<00:00, 20.51it/s]
+Subject: middle_school_physics
+Acc: 57.89473684210526
+Accuracy:
+high_school_mathematics :  16.666666666666668
+high_school_chinese :  42.10526315789474
+legal_professional :  52.17391304347826
+accountant :  40.816326530612244
+plant_protection :  77.27272727272727
+marxism :  57.89473684210526
+business_administration :  39.39393939393939
+high_school_history :  65.0
+college_economics :  38.18181818181818
+operating_system :  52.63157894736842
+high_school_physics :  42.10526315789474
+middle_school_biology :  76.19047619047619
+electrical_engineer :  45.945945945945944
+clinical_medicine :  63.63636363636363
+sports_science :  57.89473684210526
+basic_medicine :  63.1578947368421
+middle_school_history :  68.18181818181819
+physician :  53.06122448979592
+urban_and_rural_planner :  58.69565217391305
+discrete_mathematics :  18.75
+high_school_biology :  31.57894736842105
+fire_engineer :  41.935483870967744
+middle_school_mathematics :  36.8421052631579
+college_chemistry :  62.5
+modern_chinese_history :  56.52173913043478
+mao_zedong_thought :  58.333333333333336
+law :  45.833333333333336
+ideological_and_moral_cultivation :  63.1578947368421
+tax_accountant :  34.69387755102041
+college_programming :  56.75675675675676
+chinese_language_and_literature :  43.47826086956522
+advanced_mathematics :  42.10526315789474
+environmental_impact_assessment_engineer :  45.16129032258065
+high_school_geography :  78.94736842105263
+metrology_engineer :  54.166666666666664
+veterinary_medicine :  60.869565217391305
+middle_school_chemistry :  80.0
+education_science :  65.51724137931035
+logic :  45.45454545454545
+teacher_qualification :  75.0
+high_school_chemistry :  47.36842105263158
+computer_network :  57.89473684210526
+middle_school_geography :  41.666666666666664
+civil_servant :  46.808510638297875
+high_school_politics :  63.1578947368421
+art_studies :  63.63636363636363
+probability_and_statistics :  33.333333333333336
+college_physics :  31.57894736842105
+computer_architecture :  57.142857142857146
+middle_school_politics :  71.42857142857143
+professional_tour_guide :  55.172413793103445
+middle_school_physics :  57.89473684210526

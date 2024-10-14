@@ -1,0 +1,369 @@
+{
+  "jurisprudence": {
+    "score": 54.74452554744526,
+    "num": 411,
+    "correct": 225.0
+  },
+  "world_history": {
+    "score": 55.27950310559006,
+    "num": 161,
+    "correct": 89.0
+  },
+  "business_ethics": {
+    "score": 54.54545454545455,
+    "num": 209,
+    "correct": 114.0
+  },
+  "global_facts": {
+    "score": 55.033557046979865,
+    "num": 149,
+    "correct": 82.0
+  },
+  "arts": {
+    "score": 54.375,
+    "num": 160,
+    "correct": 87.0
+  },
+  "sociology": {
+    "score": 52.65486725663717,
+    "num": 226,
+    "correct": 119.0
+  },
+  "college_education": {
+    "score": 60.74766355140187,
+    "num": 107,
+    "correct": 65.0
+  },
+  "college_medicine": {
+    "score": 49.08424908424909,
+    "num": 273,
+    "correct": 134.0
+  },
+  "agronomy": {
+    "score": 50.29585798816568,
+    "num": 169,
+    "correct": 85.0
+  },
+  "journalism": {
+    "score": 54.651162790697676,
+    "num": 172,
+    "correct": 94.0
+  },
+  "college_engineering_hydrology": {
+    "score": 49.056603773584904,
+    "num": 106,
+    "correct": 52.0
+  },
+  "ancient_chinese": {
+    "score": 28.658536585365855,
+    "num": 164,
+    "correct": 47.0
+  },
+  "virology": {
+    "score": 59.76331360946745,
+    "num": 169,
+    "correct": 101.0
+  },
+  "nutrition": {
+    "score": 57.93103448275862,
+    "num": 145,
+    "correct": 84.0
+  },
+  "genetics": {
+    "score": 43.75,
+    "num": 176,
+    "correct": 77.0
+  },
+  "international_law": {
+    "score": 42.7027027027027,
+    "num": 185,
+    "correct": 79.0
+  },
+  "chinese_civil_service_exam": {
+    "score": 40.0,
+    "num": 160,
+    "correct": 64.0
+  },
+  "professional_accounting": {
+    "score": 57.714285714285715,
+    "num": 175,
+    "correct": 101.0
+  },
+  "college_mathematics": {
+    "score": 35.23809523809524,
+    "num": 105,
+    "correct": 37.00000000000001
+  },
+  "computer_security": {
+    "score": 69.5906432748538,
+    "num": 171,
+    "correct": 119.0
+  },
+  "professional_psychology": {
+    "score": 55.60344827586207,
+    "num": 232,
+    "correct": 129.0
+  },
+  "human_sexuality": {
+    "score": 55.55555555555556,
+    "num": 126,
+    "correct": 70.0
+  },
+  "high_school_politics": {
+    "score": 51.74825174825175,
+    "num": 143,
+    "correct": 74.0
+  },
+  "management": {
+    "score": 60.476190476190474,
+    "num": 210,
+    "correct": 127.0
+  },
+  "college_medical_statistics": {
+    "score": 55.660377358490564,
+    "num": 106,
+    "correct": 59.0
+  },
+  "electrical_engineering": {
+    "score": 44.76744186046512,
+    "num": 172,
+    "correct": 77.00000000000001
+  },
+  "chinese_literature": {
+    "score": 41.666666666666664,
+    "num": 204,
+    "correct": 85.0
+  },
+  "high_school_physics": {
+    "score": 44.54545454545455,
+    "num": 110,
+    "correct": 49.0
+  },
+  "chinese_driving_rule": {
+    "score": 61.83206106870229,
+    "num": 131,
+    "correct": 81.0
+  },
+  "sports_science": {
+    "score": 52.72727272727273,
+    "num": 165,
+    "correct": 87.0
+  },
+  "elementary_commonsense": {
+    "score": 44.44444444444444,
+    "num": 198,
+    "correct": 88.0
+  },
+  "food_science": {
+    "score": 52.44755244755245,
+    "num": 143,
+    "correct": 75.0
+  },
+  "elementary_mathematics": {
+    "score": 28.695652173913043,
+    "num": 230,
+    "correct": 66.0
+  },
+  "construction_project_management": {
+    "score": 38.84892086330935,
+    "num": 139,
+    "correct": 54.0
+  },
+  "ethnology": {
+    "score": 42.96296296296296,
+    "num": 135,
+    "correct": 58.0
+  },
+  "marxist_theory": {
+    "score": 60.317460317460316,
+    "num": 189,
+    "correct": 114.0
+  },
+  "traditional_chinese_medicine": {
+    "score": 45.945945945945944,
+    "num": 185,
+    "correct": 85.0
+  },
+  "public_relations": {
+    "score": 56.89655172413793,
+    "num": 174,
+    "correct": 99.0
+  },
+  "conceptual_physics": {
+    "score": 49.65986394557823,
+    "num": 147,
+    "correct": 73.0
+  },
+  "anatomy": {
+    "score": 35.13513513513514,
+    "num": 148,
+    "correct": 52.0
+  },
+  "college_law": {
+    "score": 40.74074074074074,
+    "num": 108,
+    "correct": 44.0
+  },
+  "modern_chinese": {
+    "score": 38.793103448275865,
+    "num": 116,
+    "correct": 45.0
+  },
+  "education": {
+    "score": 60.736196319018404,
+    "num": 163,
+    "correct": 99.0
+  },
+  "chinese_foreign_policy": {
+    "score": 57.00934579439252,
+    "num": 107,
+    "correct": 61.0
+  },
+  "professional_medicine": {
+    "score": 39.09574468085106,
+    "num": 376,
+    "correct": 147.0
+  },
+  "high_school_mathematics": {
+    "score": 31.70731707317073,
+    "num": 164,
+    "correct": 52.0
+  },
+  "college_actuarial_science": {
+    "score": 33.9622641509434,
+    "num": 106,
+    "correct": 36.0
+  },
+  "elementary_information_and_technology": {
+    "score": 76.89075630252101,
+    "num": 238,
+    "correct": 183.0
+  },
+  "legal_and_moral_basis": {
+    "score": 85.98130841121495,
+    "num": 214,
+    "correct": 184.0
+  },
+  "chinese_history": {
+    "score": 54.17956656346749,
+    "num": 323,
+    "correct": 175.0
+  },
+  "machine_learning": {
+    "score": 50.81967213114754,
+    "num": 122,
+    "correct": 62.0
+  },
+  "computer_science": {
+    "score": 57.35294117647059,
+    "num": 204,
+    "correct": 117.0
+  },
+  "professional_law": {
+    "score": 37.44075829383886,
+    "num": 211,
+    "correct": 79.0
+  },
+  "clinical_knowledge": {
+    "score": 49.78902953586498,
+    "num": 237,
+    "correct": 118.0
+  },
+  "logical": {
+    "score": 49.59349593495935,
+    "num": 123,
+    "correct": 61.0
+  },
+  "elementary_chinese": {
+    "score": 38.095238095238095,
+    "num": 252,
+    "correct": 96.0
+  },
+  "economics": {
+    "score": 59.74842767295598,
+    "num": 159,
+    "correct": 95.0
+  },
+  "high_school_biology": {
+    "score": 42.01183431952663,
+    "num": 169,
+    "correct": 71.0
+  },
+  "marketing": {
+    "score": 58.888888888888886,
+    "num": 180,
+    "correct": 106.0
+  },
+  "security_study": {
+    "score": 65.92592592592592,
+    "num": 135,
+    "correct": 89.0
+  },
+  "astronomy": {
+    "score": 32.72727272727273,
+    "num": 165,
+    "correct": 54.0
+  },
+  "philosophy": {
+    "score": 61.904761904761905,
+    "num": 105,
+    "correct": 65.0
+  },
+  "high_school_geography": {
+    "score": 53.389830508474574,
+    "num": 118,
+    "correct": 63.0
+  },
+  "chinese_teacher_qualification": {
+    "score": 56.98324022346369,
+    "num": 179,
+    "correct": 102.0
+  },
+  "high_school_chemistry": {
+    "score": 37.121212121212125,
+    "num": 132,
+    "correct": 49.0
+  },
+  "chinese_food_culture": {
+    "score": 41.1764705882353,
+    "num": 136,
+    "correct": 56.0
+  },
+  "world_religions": {
+    "score": 60.0,
+    "num": 160,
+    "correct": 96.0
+  },
+  "grouped": {
+    "China specific": {
+      "correct": 1171.0,
+      "num": 2572,
+      "score": 0.45528771384136857
+    },
+    "STEM": {
+      "correct": 1084.0,
+      "num": 2531,
+      "score": 0.4282892137495061
+    },
+    "Social Science": {
+      "correct": 1300.0,
+      "num": 2260,
+      "score": 0.5752212389380531
+    },
+    "Humanities": {
+      "correct": 1021.0,
+      "num": 1962,
+      "score": 0.5203873598369011
+    },
+    "Other": {
+      "correct": 1286.0,
+      "num": 2257,
+      "score": 0.5697828976517502
+    }
+  },
+  "All": {
+    "score": 0.5061302020376446,
+    "num": 11582,
+    "correct": 5862.0
+  }
+}
