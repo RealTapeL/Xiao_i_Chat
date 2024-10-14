@@ -112,4 +112,25 @@ swift sft \
     --model_id_or_path qwen/Qwen-7B-Chat \
     --dataset AI-ModelScope/blossom-math-v2 \
     --output_dir output \
-···
+```
+### 推理
+LoRA微调后
+```
+CUDA_VISIBLE_DEVICES=0 swift infer --ckpt_dir xxx/checkpoint-xxx --load_dataset_config true
+# 使用VLLM加速
+CUDA_VISIBLE_DEVICES=0 swift infer \
+    --ckpt_dir xxx/checkpoint-xxx --load_dataset_config true \
+    --merge_lora true --infer_backend vllm --max_model_len 8192
+```
+### 人类对齐
+```
+# We support rlhf_type dpo/cpo/simpo/orpo/kto
+CUDA_VISIBLE_DEVICES=0 \
+swift rlhf \
+    --rlhf_type dpo \
+    --model_type qwen1half-7b-chat \
+    --dataset shareai-llama3-dpo-zh-en-emoji \
+    --num_train_epochs 5 \
+    --sft_type lora \
+    --output_dir output \
+```
