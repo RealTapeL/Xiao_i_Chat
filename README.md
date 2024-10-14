@@ -13,9 +13,11 @@
 
 ## 🐨微调指南
 基于lora（没错，本项目使用的依然是lora微调🤗），请查看[微调步骤](https://github.com/RealTapeL/Xiao_i_Chat/blob/main/scripts/training/Readme_sft.md)
+
 想知道你微调的模型效果如何？请查看[评测指南]（https://github.com/RealTapeL/Xiao_i_Chat/tree/main/scripts/ceval）
 ### **One more thing~**
 基于ms-swift的微调方法，请参考[指南](https://github.com/RealTapeL/Xiao_i_Chat/blob/main/scripts/training/ms-Swift/Readme.md)
+
 **Only Apple can do!😋**
 
 ## 🦊llama.cpp部署
