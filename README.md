@@ -24,7 +24,7 @@
 
 基于llama.cpp的部署：请参照[指南](https://github.com/RealTapeL/Xiao_i_Chat/tree/main/scripts/llama.cpp)
 
-基于变形金刚Transformers的部署，请参考[指南]（https://github.com/RealTapeL/Xiao_i_Chat/tree/main/scripts/transformers）
+基于变形金刚Transformers的部署，请参考[指南](https://github.com/RealTapeL/Xiao_i_Chat/tree/main/scripts/transformers)
 
 ## 问题反馈
 
