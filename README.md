@@ -6,4 +6,23 @@
 
 >开发前的配置要求
 硬件：支持bf16精度且显存>24G的GPU；内存>16G
-软件：Ubuntu22.4，python>=3.9
+软件：Ubuntu22.04，python>=3.9
+
+## 🐙数据集构建
+本项目最重要的内容是开源了细分领域的数据集，请参考[数据集构建](https://github.com/RealTapeL/Xiao_i_Chat/tree/main/data)部分
+
+## 🐨微调指南
+基于lora（没错，本项目使用的依然是lora微调🤗），请查看[微调步骤](https://github.com/RealTapeL/Xiao_i_Chat/blob/main/scripts/training/Readme_sft.md)
+想知道你微调的模型效果如何？请查看[评测指南]（https://github.com/RealTapeL/Xiao_i_Chat/tree/main/scripts/ceval）
+### **One more thing~**
+基于ms-swift的微调方法，请参考[指南](https://github.com/RealTapeL/Xiao_i_Chat/blob/main/scripts/training/ms-Swift/Readme.md)
+**Only Apple can do!😋**
+
+## 🦊llama.cpp部署
+请参照[指南](https://github.com/RealTapeL/Xiao_i_Chat/tree/main/scripts/llama.cpp)
+
+## 问题反馈
+如有疑问，请在GitHub Issue中提交。礼貌地提出问题，构建和谐的讨论社区。
+
+- 在提交问题之前，请先查看FAQ能否解决问题，同时建议查阅以往的issue是否能解决你的问题。
+- 提交问题请使用本项目设置的Issue模板，以帮助快速定位具体问题。
