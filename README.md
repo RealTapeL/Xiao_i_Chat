@@ -20,10 +20,14 @@
 
 **Only Apple can do!😋**
 
-## 🦊llama.cpp部署
-请参照[指南](https://github.com/RealTapeL/Xiao_i_Chat/tree/main/scripts/llama.cpp)
+## 🦊如何部署微调的大模型？
+
+基于llama.cpp的部署：请参照[指南](https://github.com/RealTapeL/Xiao_i_Chat/tree/main/scripts/llama.cpp)
+
+基于变形金刚Transformers的部署，请参考[指南]（https://github.com/RealTapeL/Xiao_i_Chat/tree/main/scripts/transformers）
 
 ## 问题反馈
+
 如有疑问，请在GitHub Issue中提交。礼貌地提出问题，构建和谐的讨论社区。
 
 - 在提交问题之前，请先查看FAQ能否解决问题，同时建议查阅以往的issue是否能解决你的问题。
