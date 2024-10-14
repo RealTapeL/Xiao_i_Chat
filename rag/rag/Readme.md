@@ -102,3 +102,10 @@ python main.py
     - 过滤目录等无关信息后对TXT文本生成embedding (基于token长度进行切分)
     - 过滤目录等无关信息后, 对TXT进行语意切分生成embedding
     - 按照目录结构对TXT进行拆分，构架层级关系生成embedding
+## 方案细节
+### RAG具体流程
+- 根据数据集构建 vector DB
+- 对用户输入的问题进行 embedding
+- 基于 embedding 结果在向量数据库中进行检索
+- 对召回数据重排序
+- 依据用户问题和召回数据生成最后的结果
