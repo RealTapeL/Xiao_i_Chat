@@ -65,3 +65,40 @@ prompt_template = """
 	问题：{query}
 """
 ```
+## 本地调用
+src/data_processing.py
+```
+from config.config import (
+    embedding_path,
+    embedding_model_name,
+    doc_dir, qa_dir,
+    knowledge_pkl_path,
+    data_dir,
+    vector_db_dir,
+    rerank_path,
+    rerank_model_name,
+    chunk_size,
+    chunk_overlap
+)
+```
+src/pipeline.py
+```
+#from rag.src.data_processing import Data_process
+#from rag.src.config.config import prompt_template 
+
+from data_processing import Data_process
+from config.config import prompt_template
+```
+修改 import 路径之后通过以下 code 执行:
+```
+cd rag/src
+python main.py
+```
+## 数据集
+-经过清洗的QA对: 每一个QA对作为一个样本进行 embedding
+-经过清洗的对话: 每一个对话作为一个样本进行 embedding
+-经过筛选的TXT文本
+    -直接对TXT文本生成embedding (基于token长度进行切分)
+    -过滤目录等无关信息后对TXT文本生成embedding (基于token长度进行切分)
+    -过滤目录等无关信息后, 对TXT进行语意切分生成embedding
+    -按照目录结构对TXT进行拆分，构架层级关系生成embedding
